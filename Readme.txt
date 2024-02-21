@@ -1,14 +1,15 @@
-When you submit your assignment, other learners in the course will review and grade your work. They will evaluate the following:
+Please review my submission on below points as mentioned in the Peer-graded Assignment: Little Lemon Web Application.
 
-Does the web application use Django to serve static HTML content?
+1. Does the web application use Django to serve static HTML content?
 >For validation go to http://127.0.0.1:8000/restaurant/
 
-Has the learner committed the project to a Git repository?
+2. Has the learner committed the project to a Git repository?
+>Yes
 
-Does the application connect the backend to a MySQL database?
+3. Does the application connect the backend to a MySQL database?
 >add your mySql details in the databases section in settings.py file
 
-Are the menu and table booking APIs implemented?
+4. Are the menu and table booking APIs implemented?
 Menu
 >http://127.0.0.1:8000/restaurant/menu/
 Gets all menu items
@@ -21,7 +22,7 @@ The default basic root view for DefaultRouter
 >http://127.0.0.1:8000/restaurant/booking/tables/
 The booking details can be accessed via the above. It requires the a bearer token for authentication.
 
-Is the application set up with user registration and authentication?
+5. Is the application set up with user registration and authentication?
 >http://127.0.0.1:8000/auth/
 The default basic root view for DefaultRouter
 >127.0.0.1:8000/auth/users/
@@ -31,8 +32,8 @@ POST Request : Using Postman/Insomnia client, you can get your bearer token for 
 {"username":"<your-username>","password":"<your-password"}
 
 
-Does the application contain unit tests?
+6. Does the application contain unit tests?
 Added test_models.py file under tests folder in the root directory. You can run the test by executing ("python manage.py test tests.test_models")
 
-Can the API be tested with the Insomnia REST client?
+7. Can the API be tested with the Insomnia REST client?
 You can test the API using Insomnia REST client as mentioned above
